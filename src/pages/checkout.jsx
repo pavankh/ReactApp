@@ -9,7 +9,8 @@ import moment from 'moment'
 
 
 const Checkout = ({ formFields }) => {
-
+    console.log("Final data::", formFields);
+    
     const currentDate = moment(formFields.dateStr).format('hh:MM A, DD MMM YYYY');
 
     return (
