@@ -1,0 +1,85 @@
+.checkout-container{
+    width: 25%;
+    min-height: 48rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto 0;
+    border-width: 2px;
+    background-color: #F8F8F8;
+
+    .logo {
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+        width: auto;
+        height: 30px;
+    }
+
+    
+    .total {
+        margin-top: 30px;
+        margin-left: auto;
+        font-size: 36px
+    }
+}
+.checkout-header {
+    margin: 10 auto 0;
+    // background-color: rgb(173, 255, 47);
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: row;
+      .left {
+        position: relative;
+        font-size: 14px;
+        font-weight: 500;
+        left: 20px;
+        top: -20px;
+        width: 19vw;
+        text-align: start;
+        // border: 1px solid #73AD21;
+      }
+      .leftDate {
+        position: relative;
+        font-size: 13px;
+        font-weight: 500;
+        left: 20px;
+        top: -20px;
+        width: 19vw;
+        color: #848484;
+        text-align: start;
+        // border: 1px solid #73AD21;
+      }
+
+    .labelStyle {
+        width: 18vw;
+        padding: 20px 20px;
+        // border: 3px solid #73AD21;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: black;
+        text-align: start;
+
+        // background-color: aqua;
+    }
+    .pumpImg1 {
+        margin: -20px -55px;
+        // border: 3px solid gray;
+
+        // padding-top: 2-px;
+        // float: right;
+        // margin-right: -80px;
+        width: 120px;
+        height: 90px;
+    }
+    .dpImg {
+      margin: -20px -20px;
+      // border: 3px solid gray;
+
+      // padding-top: 2-px;
+      // float: right;
+      // margin-right: -80px;
+      width: 50px;
+      height: 45px;
+  }
+}
